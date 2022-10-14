@@ -6,7 +6,7 @@ class HeroImage extends Component {
     render() {
         return (
             <div className='hero-img'>
-                <video autoPlay loop muted controls="true" className='video'>
+                <video autoPlay loop muted controls playsInline className='video'>
                     <source src={spaceVideo} type='video/mp4' />
                 </video>
                 <div className='heading'>
