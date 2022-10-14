@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 function Video() {
     return (
         <div className='hero'>
-            <video autoPlay loop muted id='video'>
+            <video autoPlay loop playsInline id='video'>
                 <source src={spaceVideo} type='video/mp4' />
             </video>
             <div className='content'>
